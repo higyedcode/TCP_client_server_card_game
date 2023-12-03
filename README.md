@@ -11,3 +11,6 @@ The server shuffles a deck of cards and deals out to each client a hand of 13 ra
 
 ## Client Implementation 💻
 The client is written in PHP and has the role of dealing out the cards, and receiving the response (WIN/LOSE) from the server and also the current scores for all players. It then informs the client of the round winning status and of it's current place in the rankings of that round.
+
+### Customisation 🔧
+To play this game on your own machine, modify the IP addresses of the clients in the PHP file to be the IP address of the machine running the server( you can get the ip address of a machine by running ipconfig - on Windows or ifconfig - on Linux or Mac ).
