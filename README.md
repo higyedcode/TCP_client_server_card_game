@@ -12,6 +12,6 @@ The server shuffles a deck of cards and deals out to each client a hand of 13 ra
 ## Client Implementation 💻
 The client is written in PHP and has the role of dealing out the cards, and receiving the response (WIN/LOSE) from the server and also the current scores for all players. It then informs the client of the round winning status and of it's current place in the rankings of that round.
 
-### Customisation 🔧
+## Customisation 🔧
 The default configuration for the game is that the server and clients run on the localhost ip address( 127.0.0.1 ), meaning that you can play the game by openning 5 terminals on your computer and running the server and 4 clients.
 If you want to play the game with friends, or from different clients running on different machines with different IP addresses, modify the IP address of the server in the client code(PHP file) to be the actual ip address of the machine running the server( you can get the ip address of a machine by running this command in a terminal:  ipconfig - on Windows or ifconfig - on Linux or Mac ).
